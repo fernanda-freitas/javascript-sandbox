@@ -5,6 +5,10 @@ function App() {
   const array1 = [1, 2, 3, 4, 5]
   const array2 = [6, 7, 8, 9, 10]
 
+  // shif - Remove um item na primeira posição de um array.
+  // unshift - Adiciona um item na primeira posição de um array.
+  // pop - Remove um item na última posição de um array.
+  // push - Adiciona um item na última posição de um array.
   // Concat - Junta vários arrays e devolve uma cópia dos arrays concatenados.
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
   // Filter - Cria um array com todos os elementos avaliados com true pela função especificada.
