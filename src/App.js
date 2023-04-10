@@ -85,7 +85,14 @@ function App() {
   // findIndex - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
 
   // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
-
+  console.log(`sort - Organiza o array em ordem alfabética ou de acordo com a função específicada`)
+  const array12 = [1, 2, 3, 4 ,5]
+  console.log(array12)
+  const arrayReversed = array12.reverse()
+  console.log(arrayReversed)
+  const arraySorted = arrayReversed.sort((a, b) => a - b)
+  console.log(arraySorted)
+  
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
   
   // forEach - Executa uma função específica em cada elemento do array.
