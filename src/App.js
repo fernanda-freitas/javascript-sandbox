@@ -45,6 +45,11 @@ function App() {
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
   
   // Filter - Cria um array com todos os elementos avaliados com true pela função especificada.
+  console.log(`filter - Cria um array com todos os elementos avaliados com true pela função especificada`)
+  const array7 = [20, 21, 22]
+  console.log(array7)
+  const newArr = array7.filter((newArr) => newArr % 2 === 0)
+  console.log(newArr)
   
   // forEach - Executa uma função específica em cada elemento do array.
   
