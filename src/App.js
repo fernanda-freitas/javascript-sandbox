@@ -35,8 +35,12 @@ function App() {
   console.log(array4)
 
   // Concat - Junta vários arrays e devolve uma cópia dos arrays concatenados.
-  console.log('concat')
-  console.log(array1.concat(array2))
+  console.log(`Concat - Junta vários arrays e devolve uma cópia dos arrays concatenados`)
+  const array5 = [14, 15, 16]
+  const array6 = [17, 18, 19]
+  console.log(array5)
+  console.log(array6)
+  console.log(array5.concat(array6))
 
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
   
