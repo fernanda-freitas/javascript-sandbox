@@ -64,17 +64,25 @@ function App() {
   const newArr9 = array9.reduce((prev, current) => prev + current )
   console.log(newArr9)
   
+  // slice - Devolve um novo array a partir do índice especificado.
+  console.log(`slice - Devolve um novo array a partir do índice especificado`)
+  const array11 = [31, 32, 33]
+  console.log(array11)
+  console.log(array11.slice(1))
+
+  // find - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
+
   // join - Reúne todos os elementos do array em uma string.
   console.log(`Reúne todos os elementos do array em uma string`)
   const array10 = ['apple', 'banana', 'orange']
   console.log(array10)
   console.log(array10.join())
 
-  // slice - Devolve um novo array a partir do índice especificado.
-  console.log(`slice - Devolve um novo array a partir do índice especificado`)
-  const array11 = [31, 32, 33]
-  console.log(array11)
-  console.log(array11.slice(1))
+  // from - Cria um novo array a partir de um array existente
+
+  // includes - Devolve true caso um elemento seja encontrado no array
+
+  // findIndex - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
 
   // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
 
