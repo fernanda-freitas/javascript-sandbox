@@ -5,13 +5,15 @@ function App() {
   // shift - Remove um item na primeira posição de um array.
   console.log(`shift - Remove um item na primeira posição de um array`)
   const array1 = [1, 2, 3]
+  console.log(array1)
   const firstItemRemoved = array1.shift()
-  console.log(`Item removed: ${firstItemRemoved}`)
-  console.log(`New array: ${array1}`)
+  console.log(firstItemRemoved)
+  console.log(array1)
   
   // unshift - Adiciona um item na primeira posição de um array.
   console.log(`unshift - Adiciona um item na primeira posição de um array`)
   const array2 = [4, 5, 6]
+  console.log(array2)
   const newLenghtOfArray = array2.unshift(12)
   console.log(newLenghtOfArray)
   console.log(array2)
