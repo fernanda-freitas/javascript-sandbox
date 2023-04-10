@@ -15,7 +15,7 @@ function App() {
   const array2 = [4, 5, 6]
   console.log(array2)
   const newLenghtOfArray = array2.unshift(12)
-  console.log(newLenghtOfArray)
+  console.log(newLenghtOfArray) // returns the lenght of the new array
   console.log(array2)
 
   // pop - Remove um item na última posição de um array.
@@ -27,6 +27,12 @@ function App() {
   console.log(array3)
 
   // push - Adiciona um item na última posição de um array.
+  console.log(`push - Adiciona um item na última posição de um array`)
+  const array4 = [10, 11, 12]
+  console.log(array4)
+  const newArr4 = array4.push(13)
+  console.log(newArr4) // returns the lenght of the new array
+  console.log(array4)
 
   // Concat - Junta vários arrays e devolve uma cópia dos arrays concatenados.
   console.log('concat')
