@@ -42,19 +42,19 @@ function App() {
   console.log(array6)
   console.log(array5.concat(array6))
 
-  // Filter - Cria um array com todos os elementos avaliados com true pela função especificada.
-  console.log(`filter - Cria um array com todos os elementos que passarem na condição especificada`)
-  const array7 = [20, 21, 22]
-  console.log(array7)
-  const newArr = array7.filter((newArr) => newArr % 2 === 0)
-  console.log(newArr)
-
   // map - Cria outro array a partir de uma função que contém o critério/condição e devolve os elementos do array que correspondam ao critério.
   console.log(`map - Cria outro array transformando cada item a partir da iteração em cada item`)
   const array8 = [23, 24, 25, 26]
   console.log(array8)
   const newArr8 = array8.map((newArr) => newArr + 1)
   console.log(newArr8)
+
+  // Filter - Cria um array com todos os elementos avaliados com true pela função especificada.
+  console.log(`filter - Cria um array com todos os elementos que passarem na condição especificada`)
+  const array7 = [20, 21, 22]
+  console.log(array7)
+  const newArr = array7.filter((newArr) => newArr % 2 === 0)
+  console.log(newArr)
 
   // reduce - Recebe uma função com os seguintes parâmetros(previousValue, currentValue, index e array). Index e array são opcionais.
   // podemos usar reduce para devolver um único valor que será somado a um acumulador.
