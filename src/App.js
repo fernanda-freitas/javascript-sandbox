@@ -65,8 +65,18 @@ function App() {
   console.log(newArr9)
   
   // join - Reúne todos os elementos do array em uma string.
+  console.log(`Reúne todos os elementos do array em uma string`)
+  const array10 = ['apple', 'banana', 'orange']
+  console.log(array10)
+  console.log(array10.join())
 
   // slice - Devolve um novo array a partir do índice especificado.
+  console.log(`slice - Devolve um novo array a partir do índice especificado`)
+  const array11 = [31, 32, 33]
+  console.log(array11)
+  console.log(array11.slice(1))
+
+  // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
 
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
   
@@ -79,8 +89,6 @@ function App() {
   // reverse - Inverte o array, de modo que o último item se torne o primeiro, e vice-versa
   
   // some - Itera por todos os elementos do array, verificando a condição desejada (função)
-  
-  // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
   
   // toString - Devolve o array na forma de uma string.
   
