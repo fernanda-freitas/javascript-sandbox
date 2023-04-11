@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import ArrayExercise from './ArrayExercise'
 
 function App() {
   // shift - Remove um item na primeira posição de um array.
@@ -111,6 +112,7 @@ function App() {
 
   return (
     <div className="App">
+      <ArrayExercise />
     </div>
   );
 }
