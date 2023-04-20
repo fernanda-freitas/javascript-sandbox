@@ -79,11 +79,19 @@ function App() {
   console.log(array10.join())
 
   // from - Cria um novo array a partir de um array existente
+  console.log(`Transforma um objeto iterável (string por exemplo) em array`)
+  const string1 = "String"
+  const newArr10 = Array.from(string1)
+  console.log(newArr10)
 
   // includes - Devolve true caso um elemento seja encontrado no array
+  console.log(`Devolve true caso um elemento seja encontrado no array`)
+  const array13 = [34, 35, 36]
+  const newArr11 = array13.includes(35)
+  console.log(newArr11)
 
   // findIndex - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
-
+  
   // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
   console.log(`sort - Organiza o array em ordem alfabética ou de acordo com a função específicada`)
   const array12 = [1, 2, 3, 4 ,5]
