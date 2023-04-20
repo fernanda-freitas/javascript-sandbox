@@ -130,8 +130,12 @@ function App() {
   const array18 = [2, 4, 6, 8]
   console.log(array18)
   console.log(array18.toString())  
-
+  
   // reverse - Inverte o array, de modo que o último item se torne o primeiro, e vice-versa
+  console.log(`reverse - Inverte o array, de modo que o último item se torne o primeiro, e vice-versa`)
+  const array19 = [2, 4, 6, 8]
+  console.log(array19)
+  console.log(array19.reverse())  
 
   return (
     <div className="App">
