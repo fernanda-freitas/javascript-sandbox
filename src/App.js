@@ -106,9 +106,19 @@ function App() {
   console.log(arraySorted)
   
   // Every - Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido
+  console.log(`Itera por todos os elementos do array, verificando uma condição desejada (função) até que false seja devolvido`)
+  const array15 = ['banana', 'maçã', 'laranja']
+  console.log(array15)
+  const newArr13 = array15.every((item) => item.includes('a'))
+  console.log(`Todos os itens possuem a letra 'a'?`)
+  console.log(newArr13)
   
-  // forEach - Executa uma função específica em cada elemento do array.
-  
+  // forEach - Executa uma função específica em cada elemento do array, sem retornar um novo array (diferentemente do map).
+  console.log(`forEach - Executa uma função específica em cada elemento do array, sem retornar um novo array (diferentemente do map).`)
+  const array16 = [2, 4, 6, 8]
+  console.log(array16)
+array16.forEach((item) => console.log(item))
+
   // indexOf - Pesquisa o array em busca de elementos específicos e devolve a sua posição.
   
   // lastIndexOf - Devolve a posição do último item do array que corresponda ao critério de pesquisa.
