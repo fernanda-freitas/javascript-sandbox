@@ -125,15 +125,13 @@ function App() {
   console.log(array16)
   array16.forEach((item) => console.log(item))
   
-  // lastIndexOf - Devolve a posição do último item do array que corresponda ao critério de pesquisa.
-  
-  // reverse - Inverte o array, de modo que o último item se torne o primeiro, e vice-versa
-  
-  // some - Itera por todos os elementos do array, verificando a condição desejada (função)
-  
   // toString - Devolve o array na forma de uma string.
-  
-  // valueOf - É semelhante ao método toString e devolve o array na forma de uma string.
+  console.log(`toString - Devolve o array na forma de uma string.`)
+  const array18 = [2, 4, 6, 8]
+  console.log(array18)
+  console.log(array18.toString())  
+
+  // reverse - Inverte o array, de modo que o último item se torne o primeiro, e vice-versa
 
   return (
     <div className="App">
