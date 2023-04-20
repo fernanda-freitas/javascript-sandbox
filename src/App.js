@@ -85,13 +85,17 @@ function App() {
   console.log(newArr10)
 
   // includes - Devolve true caso um elemento seja encontrado no array
-  console.log(`Devolve true caso um elemento seja encontrado no array`)
+  console.log(`includes - Devolve true caso um elemento seja encontrado no array`)
   const array13 = [34, 35, 36]
   const newArr11 = array13.includes(35)
   console.log(newArr11)
-
-  // findIndex - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
   
+  // findIndex - É usado para encontrar o índice do primeiro elemento que atende a uma condição.
+  console.log(`findIndex - É usado para encontrar o índice do primeiro elemento que atende a uma condição.`)
+  const array14 = [37, 38, 39]
+  const newArr12 = array14.findIndex((item) => item > 37)
+  console.log(newArr12)
+
   // sort - Organiza o array em ordem alfabética ou de acordo com a função específicada.
   console.log(`sort - Organiza o array em ordem alfabética ou de acordo com a função específicada`)
   const array12 = [1, 2, 3, 4 ,5]
