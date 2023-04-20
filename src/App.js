@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   // shift - Remove um item na primeira posição de um array.
-  console.log(`shift - Remove um item na primeira posição de um array`)
+  console.log(`shift - Remove um item na primeira posição de um array. Altera array original`)
   const array1 = [1, 2, 3]
   console.log(array1)
   const firstItemRemoved = array1.shift()
