@@ -89,6 +89,12 @@ function App() {
   const array13 = [34, 35, 36]
   const newArr11 = array13.includes(35)
   console.log(newArr11)
+
+  // indexOf - Pesquisa o array em busca de elementos específicos e devolve a sua posição.
+  console.log(`indexOf - Pesquisa o array em busca de elementos específicos e devolve a sua posição`)
+  const array17 = ['banana', 'maçã', 'laranja']
+  console.log(array17)
+  console.log(array17.indexOf('maçã'))
   
   // findIndex - É usado para encontrar o índice do primeiro elemento que atende a uma condição.
   console.log(`findIndex - É usado para encontrar o índice do primeiro elemento que atende a uma condição.`)
@@ -117,9 +123,7 @@ function App() {
   console.log(`forEach - Executa uma função específica em cada elemento do array, sem retornar um novo array (diferentemente do map).`)
   const array16 = [2, 4, 6, 8]
   console.log(array16)
-array16.forEach((item) => console.log(item))
-
-  // indexOf - Pesquisa o array em busca de elementos específicos e devolve a sua posição.
+  array16.forEach((item) => console.log(item))
   
   // lastIndexOf - Devolve a posição do último item do array que corresponda ao critério de pesquisa.
   
