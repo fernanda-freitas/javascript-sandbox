@@ -73,13 +73,13 @@ function App() {
   // find - Busca um elemento no array, dada uma condição desejada(função de callback), e devolve o elemento caso seja encontrado.
 
   // join - Reúne todos os elementos do array em uma string.
-  console.log(`Reúne todos os elementos do array em uma string`)
+  console.log(`join - Reúne todos os elementos do array em uma string`)
   const array10 = ['apple', 'banana', 'orange']
   console.log(array10)
   console.log(array10.join())
 
   // from - Cria um novo array a partir de um array existente
-  console.log(`Transforma um objeto iterável (string por exemplo) em array`)
+  console.log(`Array From - Transforma um objeto iterável (string por exemplo) em array`)
   const string1 = "String"
   const newArr10 = Array.from(string1)
   console.log(newArr10)
